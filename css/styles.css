@@ -11512,3 +11512,32 @@ footer a:hover, footer a:active, footer a:focus {
   color: white;
   box-shadow: 0 0 5px #000;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+
+  .body{
+    text-align: center;
+  }
+
+  .barra {
+    padding: 0;
+    padding-left: 1rem !important;
+    align-items: center;
+  }
+
+  .masthead{
+  background-size: cover;
+  background-position: center;
+  }
+  .px-5 {
+    padding-right: 1 !important;
+  }
+  .navbar-brand {
+  font-size: 0.9rem;
+  margin: 0px 0px 0px 0px;
+  }
+
+  .norway {
+    margin: 0px !important;
+  }
+}
