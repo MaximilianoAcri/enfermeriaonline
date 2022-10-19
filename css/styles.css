@@ -167,6 +167,10 @@ abbr[data-bs-original-title] {
           text-decoration-skip-ink: none;
 }
 
+.formulario:hover {
+  color: white;
+  
+}
 address {
   margin-bottom: 1rem;
   font-style: normal;
