@@ -11560,7 +11560,6 @@ section.cta2 .cta2-content {
 }
 section.cta2:before {
   content: "";
-  color: #fff;
   position: absolute;
   top: 0;
   left: 0;
