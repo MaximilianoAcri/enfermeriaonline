@@ -11523,6 +11523,17 @@ footer a:hover, footer a:active, footer a:focus {
   padding-bottom: 5rem;
 }
 
+.masthead2 {
+  background: linear-gradient(90deg, rgba(0,0,0,0.896796218487395) 0%, rgba(255,255,255,0) 100%), url(../assets/img/portadaonline.png); 
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 9.5rem;
+  padding-bottom: 5rem;
+}
+
+
+
 .whatsapp {
   position:fixed;
   width:60px;
@@ -11570,6 +11581,12 @@ footer a:hover, footer a:active, footer a:focus {
     background-position: center;
     }
 
+    .masthead2 {
+      background-size: cover;
+      background-position: center;
+      }
+
+
   .px-5 {
     padding-right: 1 !important;
   }
@@ -11595,6 +11612,69 @@ section.cta2 .cta2-content {
   z-index: 1;
 }
 section.cta2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+section.cta3 {
+  position: relative;
+  padding: 15rem 0;
+  background-image: url("../assets/img/Foto-9.jpg");
+  background-position: center;
+  background-size: cover;
+}
+section.cta3 .cta3-content {
+  position: relative;
+  z-index: 1;
+}
+section.cta3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+section.cta4 {
+  position: relative;
+  padding: 15rem 0;
+  background-image: url("../assets/img/ventosas\ principal.jpg");
+  background-position: center;
+  background-size: cover;
+}
+section.cta4 .cta4-content {
+  position: relative;
+  z-index: 1;
+}
+section.cta4:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+section.cta5 {
+  position: relative;
+  padding: 15rem 0;
+  background-image: url("../assets/img/Foto-27.jpg");
+  background-position: center;
+  background-size: cover;
+}
+section.cta5 .cta5-content {
+  position: relative;
+  z-index: 1;
+}
+section.cta5:before {
   content: "";
   position: absolute;
   top: 0;
