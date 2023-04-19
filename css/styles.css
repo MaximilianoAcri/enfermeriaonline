@@ -70,6 +70,8 @@
   box-sizing: border-box;
 }
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -7811,8 +7813,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-}
+  background: rgb(109,155,233);
+  background: linear-gradient(96deg, rgba(109,155,233,1) 0%, rgba(41,0,249,1) 100%);}
 
 .bg-secondary {
   --bs-bg-opacity: 1;
@@ -11317,6 +11319,7 @@ aside,
 section {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  
 }
 
 .app-badge {
@@ -11326,8 +11329,8 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #3e48d6;
-}
+  background: rgb(109,155,233);
+  background: linear-gradient(96deg, rgba(109,155,233,1) 0%, rgba(41,0,249,1) 100%);}
 #mainNav .navbar-brand {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   color:#fff;
@@ -11563,8 +11566,8 @@ footer a:hover, footer a:active, footer a:focus {
   position:fixed;
   width:60px;
   height:60px;
-  bottom:40px;
-  right:40px;
+  bottom:20px;
+  right:20px;
   color: #fff;
   background-color:#25d366;
   border-radius:50px;
@@ -11572,12 +11575,29 @@ footer a:hover, footer a:active, footer a:focus {
   font-size:30px;
   z-index:100;
   padding-top: 5px;
+
+}
+.whatsapp1 {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:20px;
+  right:20px;
+  color: #fff;
+  background-color:#25d366;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+  padding-top: 12px;
+
 }
 
 .whatsapp-icon  {
-  margin-top:15px;
+  margin-top:10px;
   
 }
+
 
 .whatsapp:hover {
   color: white;
@@ -11594,6 +11614,7 @@ footer a:hover, footer a:active, footer a:focus {
     padding: 0;
     padding-left: 1rem !important;
     align-items: center;
+    
   }
 
   .masthead{
@@ -11713,4 +11734,36 @@ section.cta5:before {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
+}
+
+
+.aside1{
+  background: rgb(109,155,233);
+background: linear-gradient(96deg, rgba(109,155,233,1) 0%, rgba(41,0,249,1) 100%);
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 90px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: rgb(84,143,245);
+  background: linear-gradient(96deg, rgba(84,143,245,1) 0%, rgba(47,10,237,1) 100%);  
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: #777;
+}
+
+.bi-arrow-up{
+  margin-top: 0px;
+  padding-top: 0;
 }
